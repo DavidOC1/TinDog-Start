@@ -1,0 +1,25 @@
+/* html tags */
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* class tags */
+
+.navbar {
+    background-color: #ff4d68;
+}
+
+/* id tags */
+
+#title {
+    background-color: #ff4d68;
+}
+
+/* psuedo class tags */
+/* [html tag]   :   [pseudo class]  {color: yellow;} 
+    a           :   hover           {color: yellow;}
+*/
