@@ -49,6 +49,7 @@ p {
 .feature-box {
     text-align: center;
     padding: 5%;
+   
 }
 
 .icon {
@@ -89,15 +90,21 @@ p {
 }
 
 .title-image {
-    width: 60%;
-    transform: rotate(25deg);
+    display: float;
     margin: 5% 0 0 0;
+    right: 20%;
+    transform: rotate(25deg);
+    width: 60%;
 }
 
 /* id tags */
 
 #features {
-    padding: 7% 15%;
+    background-color: white;
+    bottom: 200px;
+    padding: 7% 15% 0% 15%;
+    position: relative;
+    z-index: 1;
 }
 
 #pricing {
@@ -122,6 +129,8 @@ p {
 
 #title {
     background-color: #ff4d68;
+    position: static;
+    z-index: ;
 }
 
 /* psuedo class tags */
